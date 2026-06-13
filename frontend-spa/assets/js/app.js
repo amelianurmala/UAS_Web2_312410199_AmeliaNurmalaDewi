@@ -20,7 +20,7 @@ axios.interceptors.response.use(
         if (error.response && error.response.status === 401) {
             alert('Sesi Anda telah berakhir. Silakan login kembali.');
             localStorage.clear();
-            window.location.replace('http://localhost/UAS_elibrary/frontend-spa/#/');
+            window.location.replace('/');
         }
         return Promise.reject(error);
     }

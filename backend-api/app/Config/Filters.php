@@ -15,6 +15,7 @@ use CodeIgniter\Filters\SecureHeaders;
 
 class Filters extends BaseFilters
 {
+    
     /**
      * Configures aliases for Filter classes to
      * make reading things nicer and simpler.
@@ -73,19 +74,14 @@ class Filters extends BaseFilters
      * }
      */
     public array $globals = [
-        'before' => [
-            // 'honeypot',
-            // 'csrf',
-            // 'invalidchars',
-            'cors',
-        ],
-        'after' => [
-            // 'honeypot',
-            // 'secureheaders',
-            'cors',
-        ],
-    ];
-
+            'before' => [
+                // Tambahkan konfigurasi CORS agar mengizinkan GitHub Pages
+                'cors' => ['except' => []], 
+            ],
+            'after' => [
+                'cors' => ['except' => []],
+            ],
+        ];
     /**
      * List of filter aliases that works on a
      * particular HTTP method (GET, POST, etc.).

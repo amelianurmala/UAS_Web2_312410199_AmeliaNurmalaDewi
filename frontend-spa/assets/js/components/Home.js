@@ -5,7 +5,7 @@ const Home = {
         <nav class="fixed top-0 left-0 right-0 bg-white border-b border-zinc-200 px-8 py-4 flex justify-between items-center z-40">
             <div>
                 <div class="text-zinc-900 font-medium">E-Library</div>
-                <div class="text-zinc-400 text-xs">Universitas Pelita Bangsa</div>
+                <div class="text-zinc-400 text-xs">Kelola Buku dengan Mudah</div>
             </div>
             <router-link to="/login" class="bg-zinc-900 text-white text-sm px-4 py-2 rounded-lg hover:bg-zinc-700 transition">
                 Login Admin

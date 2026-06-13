@@ -1,7 +1,7 @@
 const { createApp } = Vue;
 const { createRouter, createWebHashHistory } = VueRouter;
 
-const apiUrl = 'http://localhost:8081';
+const apiUrl = 'https://uasweb2312410199amelianurmaladewi-production.up.railway.app';
 
 axios.interceptors.request.use(
     (config) => {

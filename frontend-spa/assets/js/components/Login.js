@@ -9,7 +9,7 @@ const Login = {
             </div>
             <div>
                 <div class="text-zinc-300 text-2xl font-medium leading-snug">"Membaca adalah jendela<br>menuju dunia tanpa batas."</div>
-                <div class="text-zinc-600 text-sm mt-3">Universitas Pelita Bangsa</div>
+                <div class="text-zinc-600 text-sm mt-3">Kelola Buku dengan Mudah</div>
             </div>
             <div class="text-zinc-700 text-xs">© 2026 E-Library. All rights reserved.</div>
         </div>

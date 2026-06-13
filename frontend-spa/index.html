@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Library — Sistem Informasi Rental Buku</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-zinc-100 min-h-screen">
+    <div id="app">
+
+        <!-- LAYOUT LOGIN & BERANDA: tanpa sidebar -->
+        <div v-if="!isLoggedIn">
+            <router-view></router-view>
+        </div>
+
+        <!-- LAYOUT ADMIN: dengan sidebar -->
+        <div v-else class="flex min-h-screen">
+
+            <!-- SIDEBAR -->
+            <aside class="w-52 bg-zinc-900 min-h-screen flex flex-col fixed top-0 left-0">
+                <div class="px-5 py-5 border-b border-zinc-700">
+                    <div class="text-white font-medium text-sm">E-Library</div>
+                    <div class="text-zinc-500 text-xs mt-0.5">Panel Administrator</div>
+                </div>
+                <nav class="flex-1 px-3 py-4 space-y-1">
+                    <div class="text-zinc-600 text-xs px-2 mb-2 tracking-widest">MENU</div>
+                    <router-link to="/dashboard"
+                        class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-zinc-400 hover:bg-zinc-800 hover:text-white transition"
+                        active-class="bg-zinc-800 text-white">
+                        Dashboard
+                    </router-link>
+                    <router-link to="/buku"
+                        class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-zinc-400 hover:bg-zinc-800 hover:text-white transition"
+                        active-class="bg-zinc-800 text-white">
+                        Buku
+                    </router-link>
+                    <router-link to="/kategori"
+                        class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-zinc-400 hover:bg-zinc-800 hover:text-white transition"
+                        active-class="bg-zinc-800 text-white">
+                        Kategori
+                    </router-link>
+                    <router-link to="/peminjaman"
+                        class="flex items-center gap-2 px-3 py-2 rounded-lg text-sm text-zinc-400 hover:bg-zinc-800 hover:text-white transition"
+                        active-class="bg-zinc-800 text-white">
+                        Peminjaman
+                    </router-link>
+                </nav>
+                <div class="px-3 py-4 border-t border-zinc-700">
+                    <button @click="logout"
+                        class="w-full text-left px-3 py-2 rounded-lg text-sm text-zinc-400 hover:bg-zinc-800 hover:text-red-400 transition">
+                        Keluar
+                    </button>
+                </div>
+            </aside>
+
+            <!-- MAIN CONTENT -->
+            <main class="ml-52 flex-1 p-8">
+                <router-view></router-view>
+            </main>
+        </div>
+
+    </div>
+
+    <script src="assets/js/components/Home.js"></script>
+    <script src="assets/js/components/Login.js"></script>
+    <script src="assets/js/components/Dashboard.js"></script>
+    <script src="assets/js/components/Buku.js"></script>
+    <script src="assets/js/components/Kategori.js"></script>
+    <script src="assets/js/components/Peminjaman.js"></script>
+    <script src="assets/js/components/DetailBuku.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

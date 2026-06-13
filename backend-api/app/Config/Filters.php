@@ -37,6 +37,7 @@ class Filters extends BaseFilters
         'performance'   => PerformanceMetrics::class,
         'auth' => \App\Filters\Auth::class,
         'apiauth' => \App\Filters\ApiAuthFilter::class,
+        'cors' => \CodeIgniter\Filters\Cors::class,
     ];
 
     /**

@@ -180,6 +180,21 @@ UAS_Web2_312410199_AmeliaNurmalaDewi/
 
 - **Repository GitHub:** https://github.com/amelianurmala/UAS_Web2_312410199_AmeliaNurmalaDewi
 - **Video Presentasi YouTube:** *(tambahkan link setelah upload)*
+- **Demo Aplikasi:**  [http://elibrary-amelia.site.je/frontend-spa](http://elibrary-amelia.site.je/frontend-spa)
+
+### Akun Login Demo (Administrator)
+| Username | Password |
+|----------|----------|
+| `admin`  | `password` |
+
+### Cara Mencoba Demo
+1. Buka link demo di atas — akan langsung tampil halaman **Beranda** publik berisi koleksi buku perpustakaan tanpa perlu login.
+2. Klik salah satu cover buku untuk melihat **halaman detail buku** (judul, penulis, penerbit, deskripsi, status stok).
+3. Klik tombol **Login Admin** di pojok kanan atas, lalu masuk menggunakan akun demo di atas untuk mengakses panel administrator.
+4. Setelah login, akan otomatis masuk ke halaman **Dashboard** dan dapat mengakses menu **Buku**, **Kategori**, dan **Peminjaman** untuk mencoba fitur tambah, edit, dan hapus data.
+5. Klik tombol **Keluar** di sidebar untuk logout dan kembali ke halaman Beranda publik.
+
+> **Catatan:** Karena menggunakan hosting gratis, kecepatan server bisa sedikit lebih lambat dibanding hosting berbayar. Jika halaman terasa lambat saat pertama kali dibuka, tunggu beberapa detik atau refresh halaman.
 
 ---
 

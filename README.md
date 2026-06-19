@@ -73,7 +73,8 @@ UAS_Web2_312410199_AmeliaNurmalaDewi/
 
 > Screenshot skema relasi tabel dari phpMyAdmin Designer
 
-![Skema Relasi Database](docs/skema-relasi.png)
+<img width="1365" height="680" alt="Screenshot 2026-06-13 100308" src="https://github.com/user-attachments/assets/27d50a94-bcfc-47a9-b214-c22e08b4fd18" />
+
 
 **Tabel:**
 - `users` — data akun administrator
@@ -86,28 +87,32 @@ UAS_Web2_312410199_AmeliaNurmalaDewi/
 ## Screenshot Aplikasi
 
 ### Halaman Beranda Publik
-![Beranda](docs/beranda.png)
+<img width="1365" height="679" alt="Screenshot 2026-06-13 095523" src="https://github.com/user-attachments/assets/b3eb27d6-246b-4062-8463-62a6a90c907e" />
 
 ### Halaman Login Admin
-![Login](docs/login.png)
+<img width="1365" height="680" alt="Screenshot 2026-06-13 095236" src="https://github.com/user-attachments/assets/bb64978a-dee7-4da7-8b80-09ea5d8cb6e0" />
 
 ### Dashboard Admin
-![Dashboard](docs/dashboard.png)
+<img width="1364" height="680" alt="Screenshot 2026-06-13 095306" src="https://github.com/user-attachments/assets/db896f09-d999-4ed8-afd6-1f7838b598af" />
 
 ### Halaman Buku
-![Buku](docs/buku.png)
+<img width="1365" height="681" alt="Screenshot 2026-06-13 095326" src="https://github.com/user-attachments/assets/438f3a32-f524-4443-b441-3e0b26f61821" />
 
 ### Form Modal Tambah/Edit Buku
-![Modal Buku](docs/modal-buku.png)
+<img width="1362" height="677" alt="Screenshot 2026-06-13 095343" src="https://github.com/user-attachments/assets/3d4dedab-f1ce-45ce-9c0b-7a98daf3ef89" />
+<img width="1360" height="678" alt="Screenshot 2026-06-13 095355" src="https://github.com/user-attachments/assets/5865073f-d32d-449c-beaf-31c20ccda2ef" />
 
 ### Halaman Kategori
-![Kategori](docs/kategori.png)
+<img width="1363" height="679" alt="Screenshot 2026-06-13 095441" src="https://github.com/user-attachments/assets/f167677d-6b77-40fe-b34e-d2d19e84bb1c" />
 
 ### Halaman Peminjaman
-![Peminjaman](docs/peminjaman.png)
+<img width="1364" height="680" alt="Screenshot 2026-06-13 095453" src="https://github.com/user-attachments/assets/d0e8575d-bf98-47fa-be52-c73a7719d7e5" />
+
+### Halaman Hapua Buku
+<img width="1355" height="680" alt="Screenshot 2026-06-13 095428" src="https://github.com/user-attachments/assets/756b22d4-cf5b-4d03-a7fe-ae327e48e415" />
 
 ### Detail Buku (Halaman Publik)
-![Detail Buku](docs/detail-buku.png)
+<img width="1365" height="685" alt="Screenshot 2026-06-13 095535" src="https://github.com/user-attachments/assets/80001db3-da90-4b5a-97ea-fcff964fb73e" />
 
 ---
 
@@ -115,7 +120,8 @@ UAS_Web2_312410199_AmeliaNurmalaDewi/
 
 > Endpoint DELETE tanpa Authorization Bearer Token menghasilkan Error 401 Unauthorized
 
-![Error 401 Postman](docs/error-401.png)
+<img width="1365" height="719" alt="Screenshot 2026-06-13 100513" src="https://github.com/user-attachments/assets/2573b1ae-5885-4611-a8ad-a13c85aa613d" />
+
 
 ```json
 {
